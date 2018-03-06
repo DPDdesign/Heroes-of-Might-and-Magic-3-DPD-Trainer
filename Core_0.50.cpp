@@ -55,7 +55,7 @@ public:
 private:
 	FILE * input;
 	int icount[11] = { 1, 8, 8, 7, 7, 16, 16, 2, 1, 1, 4 };
-	int	isize[11] = { 3, 2, 1, 3, 5,  3,  3, 3, 3, 3,  3 };
+	int	isize[11] = { 3, 3, 1, 3, 5,  3,  3, 3, 3, 3,  3 };
 
 	FILE* output;
 	int noe = 11;
