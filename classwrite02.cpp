@@ -1,5 +1,6 @@
 // version still in development, does not provide all artifacts (warm machines, misc5), nor secondary skills.
 // 0.2 Read and write in one function
+// 0.3 Both players in one loop
 
 #include <iostream>
 #include <string>
@@ -13,88 +14,90 @@
 using namespace std;
 
 
-class test {
+class gracz {
 
 public:
-	void zapisz(int[][50], int[], int[], int,int[], FILE*, bool);
+	gracz(int value[][50], FILE* file){    
+	getdata(value, file);
+	}
+	
+	
+	void getdata(int a[][50], FILE* f)
+	{
+		output = f;
+		for(int i=0; i<noe; i++){
+			for(int j = 0; j<ecount[i];j++) {buffor[i][j] = a[i][j];}
+		}
+	}
+	
+	void zapisz(int,int);
+	
 
 private:
-	int buffor[50][50], ecount[50], esize[50], loc[50], jump[50], number, row;
-
 	
+	int noe = 3;
+	int ecount[3] = { 4,5,10 }; 								// ile elementów pobrać
+	int loc[3] = { 0,10,20 };								// gdzie zapisać pierwszy element
+	int jump[3] = {3,2,1};									// co ile zapisać elementy	
+															// ile elementów
+	int buffor[50][50], locm;
+	FILE* output;
+
 };
 
-void test::zapisz(int values[][50], int counter[], int location[], int r, int jump[], FILE* output, bool test) {
+void gracz::zapisz(int r, int k) {
 	
-	row = r;
-	ecount[row] = counter[r];
-	loc[row] = location[r];
 
 	for (int i = 0; i < ecount[r]; i++)
-	{
-		buffor[row][i] = values[r][i];
-		
-		// BEZ MIESZANIA
-		if		(test==0){
-		fseek(output, loc[row] + i * jump[row], 0);
-		fwrite(&buffor[row][i], 1, 1, output);
-		}
-		
-		// MIESZANIE
-		else if	(test==1){ 
+	{	
 			
-			int locm = loc[row] + i* jump[row]; 	
-			int buffm = buffor[row][i];
-	
+			locm = k + loc [r] + i*jump[r];
 			stringstream sstream;
-			sstream << std::hex << buffm;
+			sstream << std::hex << buffor[r][i];
 			string hexx = sstream.str();
-	
+			
 			if (hexx.size() == 4) {
+				
 				string hexxtemp;
 				hexxtemp.append(hexx, 2, 2);
 				hexx.erase(2, 2);
 				int i_hex1 = std::stoi(hexxtemp, nullptr, 16);
 				int i_hex2 = std::stoi(hexx, nullptr, 16);
 	
-				int buffer2[] = { i_hex1 };
 				fseek(output, locm + 1, 0);
-				fwrite(buffer2, 1, 1, output);
+				fwrite(&i_hex1, 1, 1, output);
 	
-				int buffer3[] = { i_hex2 };
 				fseek(output, locm, 0);
-				fwrite(buffer3, 1, 1, output);
+				fwrite(&i_hex2, 1, 1, output);
 			}
 		
-			else{
-				int buffer2[] = { buffm };
+			 else{ 
+			
 				fseek(output, locm, 0);
-				fwrite(buffer2, 2, 1, output);
+				fwrite(&buffor[r][i], 1, 1, output);
 			}
 		}
 	}
 
-}
 
 
 int main() {
 	
-	//int buffor[50][50], ecount[50], esize[50], loc[50]
+	int loc[2] = {0,50};
+	int data1[3][50] = { {10,2,3,4},{32124,5,6,7,26985},{8,9,10,11,12,13,14,15,16,17} };	
+	int data2[3][50] = { {11,3,5,6},{32125,6,7,8,26986},{9,10,11,12,13,14,15,16,17,18} };		
 
-	int data[3][50] = { {1,2},{3,4,5},{6,7,8,9} };			//  dane
-	int ecount[3] = { 2,3,4 }; 								// ile elementów pobrać
-	int loc[3] = { 0,10,20 };								// gdzie zapisać pierwszy element
-	int jump[3] = {3,2,1};									// co ile zapisać elementy
-	
-	
-	
 	FILE* output;
-	output = fopen("tester.txt", "r+");
-	test koksik;
-	koksik.zapisz(data, ecount, loc, 0,jump,output,0);	// dane, ile, gdzie, rząd, co ile, dokąd, czy mieszać duże liczby
-	koksik.zapisz(data, ecount, loc, 1,jump,output,0);
-	koksik.zapisz(data, ecount, loc, 2,jump,output,0);
+	output = fopen("tester.txt", "rb+");
+
+	  
+	gracz czerwony(data1, output);
+	gracz niebieski(data2, output);
 	
-	return 0;
+	for(int i = 0; i<3; i++)	{
+		czerwony.zapisz(i,loc[0]);
+		niebieski.zapisz(i,loc[1]);
+}
+
 }
 
