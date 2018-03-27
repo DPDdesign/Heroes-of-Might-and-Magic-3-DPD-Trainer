@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <creature id="Centaur">
+    <prize>45</prize>
+  </creature>
+  <creature id="Centaur Captain">
+    <prize>53</prize>
+  </creature>
+  <creature id="Familiar">
+    <prize>25</prize>
+  </creature>
+  <creature id="Gnoll">
+    <prize>40</prize>
+  </creature>
+  <creature id="Gnoll Marauder">
+    <prize>41</prize>
+  </creature>
+  <creature id="Goblin">
+    <prize>27</prize>
+  </creature>
+  <creature id="Gremlin">
+    <prize>24</prize>
+  </creature>
+  <creature id="Halberdier">
+    <prize>55</prize>
+  </creature>
+  <creature id="Hobgoblin">
+    <prize>28</prize>
+  </creature>
+  <creature id="Imp">
+    <prize>24</prize>
+  </creature>
+  <creature id="Infernal Troglodyte">
+    <prize>37</prize>
+  </creature>
+  <creature id="Master Gremlin">
+    <prize>25</prize>
+  </creature>
+  <creature id="Pikeman">
+    <prize>42</prize>
+  </creature>
+  <creature id="Pixie">
+    <prize>22</prize>
+  </creature>
+  <creature id="Skeleton">
+    <prize>37</prize>
+  </creature>
+  <creature id="Skeleton Warrior">
+    <prize>39</prize>
+  </creature>
+  <creature id="Sprite">
+    <prize>27</prize>
+  </creature>
+  <creature id="Troglodyte">
+    <prize>31</prize>
+  </creature>
+  <creature id="Air Elemental">
+    <prize>140</prize>
+  </creature>
+  <creature id="Archer">
+    <prize>57</prize>
+  </creature>
+  <creature id="Battle Dwarf">
+    <prize>89</prize>
+  </creature>
+  <creature id="Dwarf">
+    <prize>87</prize>
+  </creature>
+  <creature id="Gog">
+    <prize>73</prize>
+  </creature>
+  <creature id="Harpy">
+    <prize>64</prize>
+  </creature>
+  <creature id="Harpy Hag">
+    <prize>85</prize>
+  </creature>
+  <creature id="Lizard Warrior">
+    <prize>85</prize>
+  </creature>
+  <creature id="Lizardman">
+    <prize>73</prize>
+  </creature>
+  <creature id="Magog">
+    <prize>74</prize>
+  </creature>
+  <creature id="Marksman">
+    <prize>57</prize>
+  </creature>
+  <creature id="Obsidian Gargoyle">
+    <prize>72</prize>
+  </creature>
+  <creature id="Stone Gargoyle">
+    <prize>69</prize>
+  </creature>
+  <creature id="Storm Elemental">
+    <prize>153</prize>
+  </creature>
+  <creature id="Walking Dead">
+    <prize>65</prize>
+  </creature>
+  <creature id="Wolf Raider">
+    <prize>78</prize>
+  </creature>
+  <creature id="Wolf Rider">
+    <prize>62</prize>
+  </creature>
+  <creature id="Zombie">
+    <prize>76</prize>
+  </creature>
+  <creature id="Beholder">
+    <prize>125</prize>
+  </creature>
+  <creature id="Cerberus">
+    <prize>175</prize>
+  </creature>
+  <creature id="Dragon Fly">
+    <prize>114</prize>
+  </creature>
+  <creature id="Evil Eye">
+    <prize>129</prize>
+  </creature>
+  <creature id="Grand Elf">
+    <prize>92</prize>
+  </creature>
+  <creature id="Griffin">
+    <prize>124</prize>
+  </creature>
+  <creature id="Hell Hound">
+    <prize>128</prize>
+  </creature>
+  <creature id="Ice Elemental">
+    <prize>171</prize>
+  </creature>
+  <creature id="Iron Golem">
+    <prize>155</prize>
+  </creature>
+  <creature id="Orc">
+    <prize>87</prize>
+  </creature>
+  <creature id="Orc Chieftain">
+    <prize>105</prize>
+  </creature>
+  <creature id="Royal Griffin">
+    <prize>131</prize>
+  </creature>
+  <creature id="Serpent Fly">
+    <prize>96</prize>
+  </creature>
+  <creature id="Stone Golem">
+    <prize>137</prize>
+  </creature>
+  <creature id="Water Elemental">
+    <prize>145</prize>
+  </creature>
+  <creature id="Wight">
+    <prize>94</prize>
+  </creature>
+  <creature id="Wood Elf">
+    <prize>92</prize>
+  </creature>
+  <creature id="Wraith">
+    <prize>93</prize>
+  </creature>
+  <creature id="Arch Mage">
+    <prize>206</prize>
+  </creature>
+  <creature id="Basilisk">
+    <prize>221</prize>
+  </creature>
+  <creature id="Crusader">
+    <prize>272</prize>
+  </creature>
+  <creature id="Demon">
+    <prize>218</prize>
+  </creature>
+  <creature id="Energy Elemental">
+    <prize>192</prize>
+  </creature>
+  <creature id="Fire Elemental">
+    <prize>164</prize>
+  </creature>
+  <creature id="Greater Basilisk">
+    <prize>249</prize>
+  </creature>
+  <creature id="Horned Demon">
+    <prize>227</prize>
+  </creature>
+  <creature id="Mage">
+    <prize>174</prize>
+  </creature>
+  <creature id="Medusa">
+    <prize>169</prize>
+  </creature>
+  <creature id="Medusa Queen">
+    <prize>199</prize>
+  </creature>
+  <creature id="Ogre">
+    <prize>239</prize>
+  </creature>
+  <creature id="Ogre Mage">
+    <prize>311</prize>
+  </creature>
+  <creature id="Pegasus">
+    <prize>171</prize>
+  </creature>
+  <creature id="Silver Pegasus">
+    <prize>179</prize>
+  </creature>
+  <creature id="Swordsman">
+    <prize>211</prize>
+  </creature>
+  <creature id="Vampire">
+    <prize>223</prize>
+  </creature>
+  <creature id="Vampire Lord">
+    <prize>373</prize>
+  </creature>
+  <creature id="Dendroid Guard">
+    <prize>330</prize>
+  </creature>
+  <creature id="Dendroid Soldier">
+    <prize>358</prize>
+  </creature>
+  <creature id="Earth Elemental">
+    <prize>198</prize>
+  </creature>
+  <creature id="Genie">
+    <prize>332</prize>
+  </creature>
+  <creature id="Gorgon">
+    <prize>435</prize>
+  </creature>
+  <creature id="Lich">
+    <prize>231</prize>
+  </creature>
+  <creature id="Magma Elemental">
+    <prize>242</prize>
+  </creature>
+  <creature id="Master Genie">
+    <prize>347</prize>
+  </creature>
+  <creature id="Mighty Gorgon">
+    <prize>545</prize>
+  </creature>
+  <creature id="Minotaur">
+    <prize>409</prize>
+  </creature>
+  <creature id="Minotaur King">
+    <prize>423</prize>
+  </creature>
+  <creature id="Monk">
+    <prize>211</prize>
+  </creature>
+  <creature id="Pit Fiend">
+    <prize>360</prize>
+  </creature>
+  <creature id="Pit Lord">
+    <prize>396</prize>
+  </creature>
+  <creature id="Power Lich">
+    <prize>296</prize>
+  </creature>
+  <creature id="Roc">
+    <prize>382</prize>
+  </creature>
+  <creature id="Thunderbird">
+    <prize>403</prize>
+  </creature>
+  <creature id="Zealot">
+    <prize>226</prize>
+  </creature>
+  <creature id="Black Knight">
+    <prize>833</prize>
+  </creature>
+  <creature id="Cavalier">
+    <prize>702</prize>
+  </creature>
+  <creature id="Champion">
+    <prize>777</prize>
+  </creature>
+  <creature id="Cyclops">
+    <prize>521</prize>
+  </creature>
+  <creature id="Cyclops King">
+    <prize>541</prize>
+  </creature>
+  <creature id="Dread Knight">
+    <prize>1054</prize>
+  </creature>
+  <creature id="Efreet">
+    <prize>604</prize>
+  </creature>
+  <creature id="Efreet Sultan">
+    <prize>726</prize>
+  </creature>
+  <creature id="Magic Elemental">
+    <prize>762</prize>
+  </creature>
+  <creature id="Manticore">
+    <prize>525</prize>
+  </creature>
+  <creature id="Naga">
+    <prize>904</prize>
+  </creature>
+  <creature id="Naga Queen">
+    <prize>943</prize>
+  </creature>
+  <creature id="Psychic Elemental">
+    <prize>625</prize>
+  </creature>
+  <creature id="Scorpicore">
+    <prize>580</prize>
+  </creature>
+  <creature id="Unicorn">
+    <prize>640</prize>
+  </creature>
+  <creature id="War Unicorn">
+    <prize>738</prize>
+  </creature>
+  <creature id="Wyvern">
+    <prize>486</prize>
+  </creature>
+  <creature id="Wyvern Monarch">
+    <prize>557</prize>
+  </creature>
+  <creature id="Ancient Behemoth">
+    <prize>2562</prize>
+  </creature>
+  <creature id="Angel">
+    <prize>1890</prize>
+  </creature>
+  <creature id="Arch Devil">
+    <prize>2557</prize>
+  </creature>
+  <creature id="Archangel">
+    <prize>2897</prize>
+  </creature>
+  <creature id="Behemoth">
+    <prize>1451</prize>
+  </creature>
+  <creature id="Black Dragon">
+    <prize>2419</prize>
+  </creature>
+  <creature id="Bone Dragon">
+    <prize>1176</prize>
+  </creature>
+  <creature id="Chaos Hydra">
+    <prize>2288</prize>
+  </creature>
+  <creature id="Devil">
+    <prize>1624</prize>
+  </creature>
+  <creature id="Firebird">
+    <prize>1242</prize>
+  </creature>
+  <creature id="Ghost Dragon">
+    <prize>1574</prize>
+  </creature>
+  <creature id="Giant">
+    <prize>1350</prize>
+  </creature>
+  <creature id="Gold Dragon">
+    <prize>2412</prize>
+  </creature>
+  <creature id="Green Dragon">
+    <prize>1554</prize>
+  </creature>
+  <creature id="Hydra">
+    <prize>1683</prize>
+  </creature>
+  <creature id="Phoenix">
+    <prize>1603</prize>
+  </creature>
+  <creature id="Red Dragon">
+    <prize>1582</prize>
+  </creature>
+  <creature id="Titan">
+    <prize>2842</prize>
+  </creature>
+  <creature id="Boar">
+    <prize>67</prize>
+  </creature>
+  <creature id="Diamond Golem">
+    <prize>363</prize>
+  </creature>
+  <creature id="Enchanter">
+    <prize>254</prize>
+  </creature>
+  <creature id="Gold Golem">
+    <prize>277</prize>
+  </creature>
+  <creature id="Halfling">
+    <prize>25</prize>
+  </creature>
+  <creature id="Mummy">
+    <prize>128</prize>
+  </creature>
+  <creature id="Nomad">
+    <prize>130</prize>
+  </creature>
+  <creature id="Peasant">
+    <prize>10</prize>
+  </creature>
+  <creature id="Rogue">
+    <prize>60</prize>
+  </creature>
+  <creature id="Sharpshooter">
+    <prize>122</prize>
+  </creature>
+  <creature id="Troll">
+    <prize>276</prize>
+  </creature>
+</document>
