@@ -1,0 +1,15 @@
+Heroes of Might and Magic: Trainer Arena 
+Version: Beta 0.1
+Authors: ChaosRising, Cielu1
+
+Jest to pierwszy z trzech planowanych etapów bety.
+Zainstaluj w folderze z heroes 3 z dodatkami HD mod i HoTA (1.5.1) 
+WAŻNE -> !Zapoznaj się z plikiem Instruction_PL.pdf w folderze TA_resources
+Po instalacji, w folderze heroes 3 będzie umieszczony plik Trianer Arena.exe
+
+Najcenniejsze dla nas będą uwagi odnośnie:
+1) Wygody użytkownia
+2) BUGI
+3) Pomysłów na skille, skróty klawiaturowe
+4) Wstępny balans 
+
