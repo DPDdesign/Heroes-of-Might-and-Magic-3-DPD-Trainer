@@ -1,0 +1,13 @@
+D:\00\TA reborn\mapcreate\mapcreate\bin\Debug\netcoreapp3.1\mapcreate.exe
+D:\00\TA reborn\mapcreate\mapcreate\bin\Debug\netcoreapp3.1\mapcreate.deps.json
+D:\00\TA reborn\mapcreate\mapcreate\bin\Debug\netcoreapp3.1\mapcreate.runtimeconfig.json
+D:\00\TA reborn\mapcreate\mapcreate\bin\Debug\netcoreapp3.1\mapcreate.runtimeconfig.dev.json
+D:\00\TA reborn\mapcreate\mapcreate\bin\Debug\netcoreapp3.1\mapcreate.dll
+D:\00\TA reborn\mapcreate\mapcreate\bin\Debug\netcoreapp3.1\mapcreate.pdb
+D:\00\TA reborn\mapcreate\mapcreate\obj\Debug\netcoreapp3.1\mapcreate.csprojAssemblyReference.cache
+D:\00\TA reborn\mapcreate\mapcreate\obj\Debug\netcoreapp3.1\mapcreate.AssemblyInfoInputs.cache
+D:\00\TA reborn\mapcreate\mapcreate\obj\Debug\netcoreapp3.1\mapcreate.AssemblyInfo.cs
+D:\00\TA reborn\mapcreate\mapcreate\obj\Debug\netcoreapp3.1\mapcreate.csproj.CoreCompileInputs.cache
+D:\00\TA reborn\mapcreate\mapcreate\obj\Debug\netcoreapp3.1\mapcreate.dll
+D:\00\TA reborn\mapcreate\mapcreate\obj\Debug\netcoreapp3.1\mapcreate.pdb
+D:\00\TA reborn\mapcreate\mapcreate\obj\Debug\netcoreapp3.1\mapcreate.genruntimeconfig.cache
